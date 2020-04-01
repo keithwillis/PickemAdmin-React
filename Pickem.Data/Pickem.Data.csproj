@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200225201601_init.cs" />
+    <Compile Remove="Migrations\20200225201601_init.Designer.cs" />
+    <Compile Remove="Migrations\20200225203228_init.cs" />
+    <Compile Remove="Migrations\20200225203228_init.Designer.cs" />
+    <Compile Remove="Migrations\20200225203834_addAdmin.cs" />
+    <Compile Remove="Migrations\20200225203834_addAdmin.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.2" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pickem.Domain\Pickem.Domain.csproj" />
+  </ItemGroup>
+</Project>

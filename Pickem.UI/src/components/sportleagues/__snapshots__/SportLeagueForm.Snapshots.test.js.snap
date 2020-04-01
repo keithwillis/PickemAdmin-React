@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sets submit button label 'Save' wen saving is false 1`] = `
+Array [
+  <form
+    onSubmit={[MockFunction]}
+  >
+    <h2>
+      Edit
+       Sport League
+    </h2>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <div
+        className="field"
+      >
+        <input
+          className="form-control"
+          name="name"
+          onChange={[Function]}
+          type="text"
+          value="NFL"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="isEnabled"
+      >
+        Is Enabled
+      </label>
+      <div
+        className="field"
+      >
+        <input
+          checked={true}
+          className="form-control"
+          name="isEnabled"
+          onChange={[Function]}
+          type="checkbox"
+          value="IsEnabled"
+        />
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      Save
+    </button>
+  </form>,
+  <br />,
+  <br />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-3"
+    >
+      <div
+        className="flex-column nav nav-pills"
+        onKeyDown={[Function]}
+        role="tablist"
+      />
+    </div>
+    <div
+      className="col-sm-6"
+    >
+      <div
+        className="tab-content"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`sets submit button label 'Saving...' wen saving is true 1`] = `
+Array [
+  <form
+    onSubmit={[MockFunction]}
+  >
+    <h2>
+      Edit
+       Sport League
+    </h2>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <div
+        className="field"
+      >
+        <input
+          className="form-control"
+          name="name"
+          onChange={[Function]}
+          type="text"
+          value="NFL"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="isEnabled"
+      >
+        Is Enabled
+      </label>
+      <div
+        className="field"
+      >
+        <input
+          checked={true}
+          className="form-control"
+          name="isEnabled"
+          onChange={[Function]}
+          type="checkbox"
+          value="IsEnabled"
+        />
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="submit"
+    >
+      Saving...
+    </button>
+  </form>,
+  <br />,
+  <br />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-3"
+    >
+      <div
+        className="flex-column nav nav-pills"
+        onKeyDown={[Function]}
+        role="tablist"
+      />
+    </div>
+    <div
+      className="col-sm-6"
+    >
+      <div
+        className="tab-content"
+      />
+    </div>
+  </div>,
+]
+`;
