@@ -4,6 +4,7 @@
 .vs/Pickem/v16/Server/sqlite3/storage.ide-shm
 .vs/Pickem/v16/Server/sqlite3/storage.ide-wal
 .vs/Pickem/config/applicationhost.config
+.vscode/
 Pickem.API/obj/
 Pickem.API/bin/Debug
 Pickem.Data/bin/Debug
